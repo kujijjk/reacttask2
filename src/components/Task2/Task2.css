@@ -1,0 +1,49 @@
+.main {
+	text-align: center;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.acc,
+.reg {
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 8px;
+	background-color: grey;
+	display: inline-block;
+}
+.btn-acc,
+.btn-reg,
+.btn {
+	margin-top: 10px;
+	padding: 8px 16px;
+	font-size: 14px;
+	cursor: pointer;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+}
+.btn-acc,
+.btn-reg {
+	background-color: blueviolet;
+}
+.btn {
+	background-color: chocolate;
+}
+.btn-acc:hover,
+.btn-reg:hover,
+.btn:hover {
+	background-color: red;
+}
+.p-container {
+	text-align: left;
+	margin-bottom: 10px;
+}
+.p-container em {
+	display: inline-block;
+	width: 80px;
+	margin-right: 10px;
+	text-align: right;
+}
